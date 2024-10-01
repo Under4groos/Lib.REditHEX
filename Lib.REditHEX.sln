@@ -5,6 +5,10 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lib.REditHEX", "Lib.REditHEX\Lib.REditHEX.vcxproj", "{C50BA933-A85D-4A84-AB52-62B25D0A3062}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{1D9EF58A-8BF4-4931-A591-CFDAA44BA772}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FIleRead", "FIleRead\FIleRead.vcxproj", "{0C68CC7D-CF6E-477E-93C8-77B66BDFBCE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,9 +25,20 @@ Global
 		{C50BA933-A85D-4A84-AB52-62B25D0A3062}.Release|x64.Build.0 = Release|x64
 		{C50BA933-A85D-4A84-AB52-62B25D0A3062}.Release|x86.ActiveCfg = Release|Win32
 		{C50BA933-A85D-4A84-AB52-62B25D0A3062}.Release|x86.Build.0 = Release|Win32
+		{0C68CC7D-CF6E-477E-93C8-77B66BDFBCE7}.Debug|x64.ActiveCfg = Debug|x64
+		{0C68CC7D-CF6E-477E-93C8-77B66BDFBCE7}.Debug|x64.Build.0 = Debug|x64
+		{0C68CC7D-CF6E-477E-93C8-77B66BDFBCE7}.Debug|x86.ActiveCfg = Debug|Win32
+		{0C68CC7D-CF6E-477E-93C8-77B66BDFBCE7}.Debug|x86.Build.0 = Debug|Win32
+		{0C68CC7D-CF6E-477E-93C8-77B66BDFBCE7}.Release|x64.ActiveCfg = Release|x64
+		{0C68CC7D-CF6E-477E-93C8-77B66BDFBCE7}.Release|x64.Build.0 = Release|x64
+		{0C68CC7D-CF6E-477E-93C8-77B66BDFBCE7}.Release|x86.ActiveCfg = Release|Win32
+		{0C68CC7D-CF6E-477E-93C8-77B66BDFBCE7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C68CC7D-CF6E-477E-93C8-77B66BDFBCE7} = {1D9EF58A-8BF4-4931-A591-CFDAA44BA772}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E51E7DED-342F-4ED8-A0CD-841CA74417B7}
